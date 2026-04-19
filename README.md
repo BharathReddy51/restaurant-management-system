@@ -1,10 +1,6 @@
 # 👨‍🍳 Restaurant Management System
 
-<a href="https://github.com/harismuneer"><img alt="views" title="Github views" src="https://komarev.com/ghpvc/?username=harismuneer&style=flat-square" width="125"/></a>
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](#)
-[![GitHub Forks](https://img.shields.io/github/forks/harismuneer/Restaurant-Management-System.svg?style=social&label=Fork&maxAge=2592000)](https://www.github.com/harismuneer/Restaurant-Management-System/fork)
-[![GitHub Issues](https://img.shields.io/github/issues/harismuneer/Restaurant-Management-System.svg?style=flat&label=Issues&maxAge=2592000)](https://www.github.com/harismuneer/Restaurant-Management-System/issues)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat&label=Contributions&colorA=red&colorB=black	)](#)
+
 
 ## Project Description
 DineOut is an **Android based Restaurant Management System** that aims to digitalize the process of various restaurant operations including **ordering, billing kitchen, hall and inventory management**. 
@@ -19,15 +15,6 @@ This application was developed as a final project for our **Software Engineering
 
 
 ---
-## 👨🏼‍💻 Contributors
-It was really fun to work with these awesome geeks to get the job done:
-
-* [Ramsha Siddiqui](https://github.com/Rmsharks4)
-* [Hassaan Elahi](https://github.com/Hassaan-Elahi)
-* [Mahnoor Kashif](https://github.com/mahnoorkashif)
-* [Shafaq Arshad](https://github.com/Shafaq15)
-* [Marriam Sajid](https://github.com/marriamsajid)
-* All members of the Software Engineering class of Spring 2018 :)
 
 ---
 
