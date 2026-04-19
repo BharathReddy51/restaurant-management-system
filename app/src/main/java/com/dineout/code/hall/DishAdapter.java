@@ -35,8 +35,6 @@ import com.google.firebase.database.MutableData;
 import com.google.firebase.database.Transaction;
 import com.google.firebase.database.ValueEventListener;
 
-import com.hrules.horizontalnumberpicker.HorizontalNumberPicker;
-import com.hrules.horizontalnumberpicker.HorizontalNumberPickerListener;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -153,21 +151,12 @@ public class DishAdapter extends ArrayAdapter<OrderDetails> {
                     };
 
                     RelativeLayout linearLayout = new RelativeLayout(getContext());
-                    HorizontalNumberPicker numberPicker = new HorizontalNumberPicker(getContext());
-                    numberPicker.setMaxValue(dish.getServings());
-                    numberPicker.setMinValue(1);
-                    numberPicker.setListener(new HorizontalNumberPickerListener() {
-                        @Override
-                        public void onHorizontalNumberPickerChanged(HorizontalNumberPicker horizontalNumberPicker, int value) {
-                            count = value;
-                        }
-                    });
+
 
                     RelativeLayout.LayoutParams numPicerParams = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
                     numPicerParams.addRule(RelativeLayout.CENTER_HORIZONTAL);
 
                     linearLayout.setLayoutParams(numPicerParams);
-                    linearLayout.addView(numberPicker, numPicerParams);
 
                     AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
                     builder.setView(linearLayout);

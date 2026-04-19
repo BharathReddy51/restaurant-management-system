@@ -1,5 +1,4 @@
 apply plugin: 'com.android.application'
-apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 27
@@ -42,7 +41,6 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth:16.0.5'
     implementation 'com.google.firebase:firebase-database:16.0.5'
 
-    implementation 'com.hrules:horizontalnumberpicker:1.1.1'
 
     implementation 'com.android.support:support-annotations:27.1.1'
 
@@ -51,3 +49,4 @@ dependencies {
     implementation 'com.sun.mail:android-activation:1.5.5'
     implementation 'com.itextpdf:itextg:5.5.10'
 }
+apply plugin: 'com.google.gms.google-services'
